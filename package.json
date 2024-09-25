@@ -1,0 +1,16 @@
+{
+  "name": "osc-discord-vrc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node-osc": "^6.0.3",
+    "discord.js": "^14.16.2",
+    "node-osc": "^9.1.3"
+  }
+}

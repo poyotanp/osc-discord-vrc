@@ -1,0 +1,6 @@
+{
+  "oscPort": 9000,
+  "allowedUsers": ["user id"],
+  "discordToken": "discord token",
+  "channelId": "discord channel id"
+}
