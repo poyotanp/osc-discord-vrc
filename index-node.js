@@ -6,10 +6,11 @@ const config = require("./config.json");
 //許可されたユーザー一覧（Discord）
 const allowedUserIds = new Set(config.allowedUsers);
 
-const oscClient = new OSCClient("127.0.0.1", config.oscPort);
-
 let typingTimeoutId;
 let isTyping = false;
+
+//OSCクライアントを初期化
+const oscClient = new OSCClient("127.0.0.1", config.oscPort);
 
 //Discordクライアントの初期化
 const discordClient = new DiscordClient({
